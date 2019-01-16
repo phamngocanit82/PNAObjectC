@@ -7,12 +7,14 @@
 //
 
 #import "PNAObjectCAppDelegate.h"
+#import <PNAObjectC/PNAObjectC.h>
 
 @implementation PNAObjectCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"aaa %@", [UtilsPlatform platformString]);
     return YES;
 }
 

@@ -1,5 +1,5 @@
 PODS:
-  - PNAObjectC (0.0.1)
+  - PNAObjectC (0.0.3)
 
 DEPENDENCIES:
   - PNAObjectC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PNAObjectC: 9d66ba10cd90473ae568afc48a1382b4cea739f4
+  PNAObjectC: 4da4f7db93d9fc778bdfc815b110982647f6cca7
 
 PODFILE CHECKSUM: 04cb215c05e5079400b101048f87f68de085ffcf
 
