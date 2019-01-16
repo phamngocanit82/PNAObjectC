@@ -1,0 +1,6 @@
+framework module PNAObjectC {
+  umbrella header "PNAObjectC-umbrella.h"
+
+  export *
+  module * { export * }
+}

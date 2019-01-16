@@ -1,0 +1,16 @@
+PODS:
+  - PNAObjectC (0.0.1)
+
+DEPENDENCIES:
+  - PNAObjectC (from `../`)
+
+EXTERNAL SOURCES:
+  PNAObjectC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PNAObjectC: 9d66ba10cd90473ae568afc48a1382b4cea739f4
+
+PODFILE CHECKSUM: 04cb215c05e5079400b101048f87f68de085ffcf
+
+COCOAPODS: 1.6.0.beta.2

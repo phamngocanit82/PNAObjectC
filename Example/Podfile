@@ -1,13 +1,11 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'PNAObjectC_Example' do
   pod 'PNAObjectC', :path => '../'
 
   target 'PNAObjectC_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'PNAObjectC', :path => '../'
   end
 end
