@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "PNAObjectC.h"
 #import "UtilsPlatform.h"
 
 FOUNDATION_EXPORT double PNAObjectCVersionNumber;

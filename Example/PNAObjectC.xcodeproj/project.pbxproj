@@ -208,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F7C37CC7648291144581C8C8 /* [CP] Embed Pods Frameworks */,
+				9E4BF6C2A5C140367DF4D594 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +227,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9B48FDBD64FE1E506FF67464 /* [CP] Embed Pods Frameworks */,
+				AC15472569A86072087EA464 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,29 +340,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B48FDBD64FE1E506FF67464 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PNAObjectC_Example-PNAObjectC_Tests/Pods-PNAObjectC_Example-PNAObjectC_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PNAObjectC/PNAObjectC.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNAObjectC.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PNAObjectC_Example-PNAObjectC_Tests/Pods-PNAObjectC_Example-PNAObjectC_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7C37CC7648291144581C8C8 /* [CP] Embed Pods Frameworks */ = {
+		9E4BF6C2A5C140367DF4D594 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,6 +360,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PNAObjectC_Example/Pods-PNAObjectC_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC15472569A86072087EA464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PNAObjectC_Example-PNAObjectC_Tests/Pods-PNAObjectC_Example-PNAObjectC_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PNAObjectC/PNAObjectC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNAObjectC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PNAObjectC_Example-PNAObjectC_Tests/Pods-PNAObjectC_Example-PNAObjectC_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
