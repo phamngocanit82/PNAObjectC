@@ -1,0 +1,22 @@
+{
+  "name": "PNAObjectC",
+  "version": "0.1.0",
+  "summary": "A short description of PNAObjectC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ngocan.pham@ogilvy.com/PNAObjectC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ngocan.pham@ogilvy.com": "ngocan.pham@ogilvy.com"
+  },
+  "source": {
+    "git": "https://github.com/ngocan.pham@ogilvy.com/PNAObjectC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PNAObjectC/Classes/**/*"
+}
