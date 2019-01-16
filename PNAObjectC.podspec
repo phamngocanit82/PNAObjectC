@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PNAObjectC'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of PNAObjectC.'
   s.homepage         = 'https://github.com/phamngocanit82/PNAObjectC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
