@@ -12,7 +12,6 @@
 		5A205FB84FF9714D6BDCB9B16429BFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		639D1679067E8814C52E02026530CCA0 /* PNAObjectC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 179A24B38A8B103F9529D18FD6F31223 /* PNAObjectC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76BC5C34B76429C6ED8A01F80C3F869A /* Pods-PNAObjectC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90531B29CA594F7FDCF70978E9B0D61B /* Pods-PNAObjectC_Example-dummy.m */; };
-		95DD8A7FAFE0CB3F9AA731A53718A4D2 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = DAB949D038C32A98B0D8022B7FA749B5 /* Info.plist */; };
 		A5C9228696D2715E5FCEFBC6CA338201 /* Pods-PNAObjectC_Example-PNAObjectC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E129AF59A16205BB9382DE7A1184D /* Pods-PNAObjectC_Example-PNAObjectC_Tests-dummy.m */; };
 		A69F464CF1910EB80349D216E679E3DE /* Pods-PNAObjectC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37BD72F213DB20F9B87CD91895AB95D /* Pods-PNAObjectC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D508C411F7F82A9AFA50624F06BDE5 /* PNAObjectC.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B1A14CB6B77273E6271FC1051E5D21 /* PNAObjectC.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02834FA7846743DB766C4539C7B875F0 /* PNAObjectC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PNAObjectC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02834FA7846743DB766C4539C7B875F0 /* PNAObjectC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PNAObjectC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		03A07829F25A40FE465463019CE138EC /* Pods-PNAObjectC_Example-PNAObjectC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNAObjectC_Example-PNAObjectC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		095D6F291A65B4FF70FB1238FFABA0EC /* Pods_PNAObjectC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PNAObjectC_Example.framework; path = "Pods-PNAObjectC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		095D6F291A65B4FF70FB1238FFABA0EC /* Pods_PNAObjectC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNAObjectC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBBF5F417C29685113793F461B07E26 /* PNAObjectC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PNAObjectC-Info.plist"; sourceTree = "<group>"; };
 		1099C61799FCEAB0FC913E71C1ECA89E /* Pods-PNAObjectC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNAObjectC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16334C92E96EBB4EFA61CEC925F34519 /* PNAObjectC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PNAObjectC-prefix.pch"; sourceTree = "<group>"; };
@@ -58,10 +57,10 @@
 		6A915ECB173248926C302CA4A2803416 /* Pods-PNAObjectC_Example-PNAObjectC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNAObjectC_Example-PNAObjectC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		74DBACD042B5316C12FB815A644361F2 /* Pods-PNAObjectC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PNAObjectC_Example.modulemap"; sourceTree = "<group>"; };
 		7730E9266BDAD6954A9EAE1FC0A87913 /* Pods-PNAObjectC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNAObjectC_Example-Info.plist"; sourceTree = "<group>"; };
-		77CE3474CDA2AFF332AD1B892D6EC67B /* PNAObjectC */ = {isa = PBXFileReference; includeInIndex = 1; path = PNAObjectC; sourceTree = "<group>"; };
+		77CE3474CDA2AFF332AD1B892D6EC67B /* PNAObjectC */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = PNAObjectC; sourceTree = "<group>"; };
 		7CB55A60831C94178DE2BC1AD25C781A /* Pods-PNAObjectC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PNAObjectC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		83DE35CF58A6ACBBE5353614DFADB403 /* Pods-PNAObjectC_Example-PNAObjectC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PNAObjectC_Example-PNAObjectC_Tests.modulemap"; sourceTree = "<group>"; };
-		8953CDF6151C0FA90FD21DDFEAC680D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8953CDF6151C0FA90FD21DDFEAC680D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F1631B241A75D464A99EF9FDC46D1B5 /* PNAObjectC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PNAObjectC-dummy.m"; sourceTree = "<group>"; };
 		90531B29CA594F7FDCF70978E9B0D61B /* Pods-PNAObjectC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PNAObjectC_Example-dummy.m"; sourceTree = "<group>"; };
 		997230EBFBC1B0BB6FC77217EFC3C835 /* Pods-PNAObjectC_Example-PNAObjectC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNAObjectC_Example-PNAObjectC_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -69,17 +68,16 @@
 		9EC5EDAB084E81C153ECC0FFA64E3671 /* Pods-PNAObjectC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNAObjectC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A14254292B117FD2767465A1FFFBE230 /* Pods-PNAObjectC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PNAObjectC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B360B58BD17C7AB7CC57D0A6F7C146A0 /* Pods-PNAObjectC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PNAObjectC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC0BCC8B2A18C4F794687CB3F0AE7093 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		BEA7F668EB07391EB0ECF2E72D5C8C70 /* PNAObjectC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PNAObjectC.framework; path = PNAObjectC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA7F668EB07391EB0ECF2E72D5C8C70 /* PNAObjectC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PNAObjectC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C008019C6443834BF8D12EBAEFB86DCF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PNAObjectC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C50C7D8729EE1B4861766227A2208631 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C50C7D8729EE1B4861766227A2208631 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D37BD72F213DB20F9B87CD91895AB95D /* Pods-PNAObjectC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PNAObjectC_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAB949D038C32A98B0D8022B7FA749B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB33DFFB88A923BC25E007BC77E2457 /* Pods-PNAObjectC_Example-PNAObjectC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PNAObjectC_Example-PNAObjectC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC44D85FB268E0D1AE7119940A19E488 /* PNAObjectC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PNAObjectC.modulemap; sourceTree = "<group>"; };
-		FCED7221E7ED5A26DC3AD49F2569668D /* Pods_PNAObjectC_Example_PNAObjectC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PNAObjectC_Example_PNAObjectC_Tests.framework; path = "Pods-PNAObjectC_Example-PNAObjectC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCED7221E7ED5A26DC3AD49F2569668D /* Pods_PNAObjectC_Example_PNAObjectC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PNAObjectC_Example_PNAObjectC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +191,6 @@
 				33B1A14CB6B77273E6271FC1051E5D21 /* PNAObjectC.h */,
 				4C28D4F0D0B07CF6590ACCECE5562EEC /* UtilsPlatform.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -219,7 +216,6 @@
 			children = (
 				BC0BCC8B2A18C4F794687CB3F0AE7093 /* module.modulemap */,
 			);
-			name = Modules;
 			path = Modules;
 			sourceTree = "<group>";
 		};
@@ -256,7 +252,6 @@
 		FB7FEC46824ABC104D7DC171A6F274B7 /* PNAObjectC.framework */ = {
 			isa = PBXGroup;
 			children = (
-				DAB949D038C32A98B0D8022B7FA749B5 /* Info.plist */,
 				77CE3474CDA2AFF332AD1B892D6EC67B /* PNAObjectC */,
 				828011F42C8322D88A3741659468C066 /* Headers */,
 				AC6AB68F9F91426FC9FB7F93D53E962A /* Modules */,
@@ -410,7 +405,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DD8A7FAFE0CB3F9AA731A53718A4D2 /* Info.plist in Sources */,
 				D95B157C4E31D27FF1915F8CD5F96CA3 /* module.modulemap in Sources */,
 				C6B750B17F435C299768A4CDAD5D1103 /* PNAObjectC in Sources */,
 				4746E4382BEA087AC8CB4CD35F5846DF /* PNAObjectC-dummy.m in Sources */,
@@ -739,8 +733,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
